@@ -1,0 +1,5 @@
+[alias]
+	co = checkout
+    root = rev-parse --show-toplevel
+    graph = log --graph --full-history --all --color --date=short --pretty=format:\"%Cred%x09%h %Creset%ad%Cblue%d %Creset %s %C(bold)(%an)%Creset\"
+    tree = log --oneline --all --graph
